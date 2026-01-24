@@ -10,7 +10,8 @@ Role: Full-Stack Developer & DevOps Engineer
 A simple todo list application with add, delete, complete, and filter features.
 
 ## Live Deployment
-🔗 **Live URL:**   https://todo-app-devops-assignment-r6aw.vercel.app/
+🔗 **Live URL:**  https://todo-app-devops-assignment-wm8z.vercel.app/
+)
 
 
 ## Technologies Used
