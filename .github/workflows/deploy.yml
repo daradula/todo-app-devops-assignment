@@ -16,4 +16,19 @@ jobs:
         vercel-project-id: ${{ secrets.PROJECT_ID }}
         working-directory: ./src
 
-        
+        name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Deploy notification
+      run: echo "Deploying to Vercel - deployment configured via Vercel GitHub integration"
