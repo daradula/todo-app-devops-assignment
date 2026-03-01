@@ -54,9 +54,6 @@ git clone  https://github.com/daradula/todo-app-devops-assignment.git
 cd todo-devops-assignment
 open src/index.html in browser 
 
-
-
-
 ##  Docker Deployment
 
 ### Prerequisites
